@@ -1,0 +1,142 @@
+body {
+    background-color: #0F1020;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    padding: 0.5em;
+    border-radius: 5px;
+    background-color: #2F195F;
+    width: 35%;
+    margin-top: 20%;
+}
+.card-login {
+    padding-bottom: 3vh;
+}
+
+.error-txt {
+    text-align: center;
+}
+
+.card-cadastro {
+    height: 35vh;
+}
+
+.card-title {
+    font-size: 2.3em;
+    text-align: center;
+}
+
+.flex-column, .flex-row {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.input-login {
+    width: 90%;
+    height: 3vh;
+    border-radius: 6px;
+    margin-bottom: 1.5vh;
+    align-self: center;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.button {
+    width: 50%;
+    height: 4vh;
+    text-align: center;
+    background-color: #7353BA;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    transition: all ease 0.5s;
+    color: #fff;
+    align-self: center;
+}
+.button:hover {
+    background-color: #EFC3F5;
+    color: #000;
+    border: 1px solid black;
+}
+
+.link {
+    text-align: center;
+    margin-top: 1vh;
+    text-decoration: none;
+    color: #fff;
+}
+.link span {
+    color: #7353BA;
+}
+
+.grid {
+    display: grid;
+    grid-template-areas: "header"
+                         "body  "
+                         "footer"
+    ;
+    grid-template-columns: 1fr;
+    width: 100%;
+}
+
+.header {
+    background-color: #7353BA;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    grid-area: header;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+.user-info:hover {
+    background-color: #EFC3F5; 
+    color: #2F195F; 
+}
+
+.user-info p {
+    font-weight: 600;
+    margin-right: 1vw;
+}
+
+.user-info img {
+    width: 2vw;
+    height: 2.5vh;
+    margin-top: 0.5vh;
+}
+
+.content {
+    grid-area: body;
+    padding-left: 1vw;
+}
+
+table {
+    background-color: #c4c4c4;
+    color: #000;
+    padding: 2em;
+}
+
+table td {
+    text-align: center;
+}
